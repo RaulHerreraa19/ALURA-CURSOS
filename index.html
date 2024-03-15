@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Encriptador de texto</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<img src="alura.png" alt="logo" id="logo"/>
+			<h1>ENCRIPTADOR DE TEXTOS</h1>			
+	</header>
+	</div>       
+	<div id="container">
+		<div id="workArea" class="box">
+			<textarea id="txtTarea" placeholder="Ingrese el texto aquí" class="tareas"></textarea>
+			<div id="divBtns" >
+				<button id="btnEncriptar">Encriptar</button>
+				<button id="btnDesencriptar">Desencriptar</button>
+			</div>
+		</div>
+		<div id="copyArea" class="box">
+			<div>
+				<textarea id="txtCopiar" class="tareas" readonly></textarea>
+			</div>
+			<button id="btnCopiar">Copiar</button>
+		</div>
+	</div>
+	<footer>
+		<div>
+			<p>©Copyright 2024 creado por: <em>Raul Herrera</em></p>
+		</div>
+	</footer>
+	<script src="/CHALLENGE/index.js"></script>  
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

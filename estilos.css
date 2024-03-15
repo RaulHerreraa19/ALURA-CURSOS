@@ -1,0 +1,18 @@
+div {
+    width: 940px;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    position: absolute;
+    right: 40vw
+}
+
+#logo {
+    position: relative;
+    height: 5vw;
+    top: 0;
+}
